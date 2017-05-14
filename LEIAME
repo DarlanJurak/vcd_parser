@@ -1,0 +1,4 @@
+LEIAME
+
+Use um SO baseado em UNIX
+Para executar o vcd parser deixe o arquivo  "fpu_double.vcd" dentro da pasta "vcd" e execute o arquivo "VCD_INTERPRETER" dentro da pasta "executable" usando o comando ./VCD_INTERPRETER

@@ -1,0 +1,48 @@
+$date
+	Tue Sep 24 20:25:13
+$end
+$version
+	ModelSim Version
+$end
+$timescale
+	2ns
+$end
+
+$scope module aes_tester $end
+$var wire 1 ! clock $end
+$var wire 1 " reset $end
+$var wire 1 # done $end
+$var wire 1 $ data_in [63] $end
+$scope module aes_cpu $end
+$var wire 1 ! clock $end
+$var wire 1 " reset $end
+$var wire 1 $ data_in [63] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+
+#0
+0!
+1"
+0#
+0$
+#50
+1!
+0"
+#100
+0!
+1#
+#150
+1!
+0#
+1$
+#200
+0!
+#250
+1!
+#300
+0!
+#350
+1!
+1#
+

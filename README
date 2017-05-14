@@ -1,0 +1,4 @@
+README
+
+Use UNIX based OS
+To execute the vcd parser keep the file "fpu_double.vcd" inside the folder "vcd" and run the file "VCD_INTERPRETER" inside the folder "executable" using ./VCD_INTERPRETER

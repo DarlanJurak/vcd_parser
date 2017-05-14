@@ -1,0 +1,306 @@
+Clock period: 10 ns
+Clock Frequency: 0.1 G Hz
+
+In module fpu_double_tb there are: 270 signals.
+> Longer idle time (do not counting reset): 
+   * opb[63]: 302 ticks.
+   * out_fp[33]: 302 ticks.
+   * out_fp1[9]: 302 ticks.
+> Most transitions (do not counting clock): 
+   * opb[41]: 10506 transitions.
+   * out_fp[11]: 10506 transitions.
+> Less transitions: 
+   * opa[20]: 805 transitions.
+   * out_fp[54]: 805 transitions.
+   * out_fp1[30]: 805 transitions.
+
+In module UUT there are: 927 signals.
+> Longer idle time (do not counting reset): 
+   * opb[63]: 302 ticks.
+   * out_fp[33]: 302 ticks.
+   * opb_reg[43]: 302 ticks.
+   * sum_out[46]: 302 ticks.
+   * diff_out[8]: 302 ticks.
+   * mul_out[26]: 302 ticks.
+   * mantissa_round[44]: 302 ticks.
+   * exponent_round[8]: 302 ticks.
+   * out_round[8]: 302 ticks.
+> Most transitions (do not counting clock): 
+   * opb[41]: 10506 transitions.
+   * out_fp[11]: 10506 transitions.
+   * opa_reg[51]: 10506 transitions.
+   * opb_reg[21]: 10506 transitions.
+   * sum_out[24]: 10506 transitions.
+   * addsub_out[42]: 10506 transitions.
+   * mul_out[4]: 10506 transitions.
+   * mantissa_round[22]: 10506 transitions.
+   * exponent_post_round[10]: 10506 transitions.
+   * out_except[50]: 10506 transitions.
+> Less transitions: 
+   * opa[20]: 805 transitions.
+   * out_fp[54]: 805 transitions.
+   * opa_reg[0]: 805 transitions.
+   * inexact_0: 805 transitions.
+   * diff_out[29]: 805 transitions.
+   * mul_out[47]: 805 transitions.
+   * div_out[9]: 805 transitions.
+   * exp_mul_out[5]: 805 transitions.
+   * out_round[29]: 805 transitions.
+
+In module i_fpu_add there are: 881 signals.
+> Longer idle time (do not counting reset): 
+   * opb[43]: 302 ticks.
+   * sum_3[46]: 302 ticks.
+   * exponent_b[0]: 302 ticks.
+   * mantissa_b[10]: 302 ticks.
+   * mantissa_large[42]: 302 ticks.
+   * large_add[28]: 302 ticks.
+   * small_shift[46]: 302 ticks.
+   * small_shift_2[11]: 302 ticks.
+   * sum[29]: 302 ticks.
+   * exponent[3]: 302 ticks.
+> Most transitions (do not counting clock): 
+   * opa[51]: 10506 transitions.
+   * opb[21]: 10506 transitions.
+   * sum_3[24]: 10506 transitions.
+   * mantissa_a[30]: 10506 transitions.
+   * exponent_large[10]: 10506 transitions.
+   * mantissa_large[20]: 10506 transitions.
+   * large_add[6]: 10506 transitions.
+   * small_shift[24]: 10506 transitions.
+   * small_shift_3[45]: 10506 transitions.
+   * sum[7]: 10506 transitions.
+> Less transitions: 
+   * opa[0]: 805 transitions.
+   * exponent_a[10]: 805 transitions.
+   * mantissa_b[31]: 805 transitions.
+   * mantissa_small[11]: 805 transitions.
+   * large_add[49]: 805 transitions.
+   * small_add[11]: 805 transitions.
+   * small_shift_2[32]: 805 transitions.
+   * sum[50]: 805 transitions.
+   * sum_2[12]: 805 transitions.
+
+In module i_fpu_sub there are: 883 signals.
+> Longer idle time (do not counting reset): 
+   * opb[43]: 302 ticks.
+   * diff_2[8]: 302 ticks.
+   * mantissa_b[51]: 302 ticks.
+   * mantissa_small[35]: 302 ticks.
+   * exponent_diff[8]: 302 ticks.
+   * subtrahend[24]: 302 ticks.
+   * subtra_shift_2[42]: 302 ticks.
+   * subtra_shift_3[3]: 302 ticks.
+   * diff_1[21]: 302 ticks.
+> Most transitions (do not counting clock): 
+   * opa[51]: 10506 transitions.
+   * opb[21]: 10506 transitions.
+   * exponent_a[8]: 10506 transitions.
+   * mantissa_b[29]: 10506 transitions.
+   * mantissa_small[13]: 10506 transitions.
+   * minuend[41]: 10506 transitions.
+   * subtrahend[2]: 10506 transitions.
+   * subtra_shift_2[20]: 10506 transitions.
+   * diff[36]: 10506 transitions.
+   * exponent[10]: 10506 transitions.
+> Less transitions: 
+   * opa[0]: 805 transitions.
+   * diff_2[29]: 805 transitions.
+   * mantissa_a[20]: 805 transitions.
+   * exponent_large[4]: 805 transitions.
+   * mantissa_large[14]: 805 transitions.
+   * subtrahend[45]: 805 transitions.
+   * subtra_shift[6]: 805 transitions.
+   * subtra_shift_3[24]: 805 transitions.
+   * diff_1[42]: 805 transitions.
+
+In module i_fpu_mul there are: 1942 signals.
+> Longer idle time (do not counting reset): 
+   * opb[43]: 302 ticks.
+   * product_7[26]: 302 ticks.
+   * mantissa_a[3]: 302 ticks.
+   * exponent_terms[2]: 302 ticks.
+   * mul_a[36]: 302 ticks.
+   * product_a[36]: 302 ticks.
+   * product_c[24]: 302 ticks.
+   * product_f[24]: 302 ticks.
+   * product_i[24]: 302 ticks.
+   * sum_0[3]: 302 ticks.
+   * sum_3[23]: 302 ticks.
+   * sum_6[24]: 302 ticks.
+   * product[104]: 302 ticks.
+   * product[10]: 302 ticks.
+   * product_1[22]: 302 ticks.
+   * product_2[34]: 302 ticks.
+   * product_3[46]: 302 ticks.
+   * product_4[58]: 302 ticks.
+   * product_5[70]: 302 ticks.
+   * product_6[82]: 302 ticks.
+> Most transitions (do not counting clock): 
+   * opa[51]: 10506 transitions.
+   * opb[21]: 10506 transitions.
+   * product_7[4]: 10506 transitions.
+   * mantissa_b[33]: 10506 transitions.
+   * exponent_1[5]: 10506 transitions.
+   * mul_a[14]: 10506 transitions.
+   * product_a[14]: 10506 transitions.
+   * product_c[2]: 10506 transitions.
+   * product_f[2]: 10506 transitions.
+   * product_i[2]: 10506 transitions.
+   * sum_1[17]: 10506 transitions.
+   * sum_3[1]: 10506 transitions.
+   * sum_6[2]: 10506 transitions.
+   * product[82]: 10506 transitions.
+   * product_1[94]: 10506 transitions.
+   * product_1[0]: 10506 transitions.
+   * product_2[12]: 10506 transitions.
+   * product_3[24]: 10506 transitions.
+   * product_4[36]: 10506 transitions.
+   * product_5[48]: 10506 transitions.
+   * product_6[60]: 10506 transitions.
+> Less transitions: 
+   * opa[0]: 805 transitions.
+   * product_7[47]: 805 transitions.
+   * exponent_5[5]: 805 transitions.
+   * mantissa_a[24]: 805 transitions.
+   * exponent_b[6]: 805 transitions.
+   * exponent_4[3]: 805 transitions.
+   * mul_b[16]: 805 transitions.
+   * product_b[4]: 805 transitions.
+   * product_e[11]: 805 transitions.
+   * product_h[16]: 805 transitions.
+   * sum_0[24]: 805 transitions.
+   * sum_2[8]: 805 transitions.
+   * sum_5[15]: 805 transitions.
+   * sum_8[19]: 805 transitions.
+   * product[31]: 805 transitions.
+   * product_1[43]: 805 transitions.
+   * product_2[55]: 805 transitions.
+   * product_3[67]: 805 transitions.
+   * product_4[79]: 805 transitions.
+   * product_5[91]: 805 transitions.
+   * product_6[103]: 805 transitions.
+   * product_6[9]: 805 transitions.
+
+In module i_fpu_div there are: 2174 signals.
+> Longer idle time (do not counting reset): 
+   * opb[43]: 302 ticks.
+   * dividend_signal[43]: 302 ticks.
+   * divisor_signal[3]: 302 ticks.
+   * mantissa_b[50]: 302 ticks.
+   * exponent_b[5]: 302 ticks.
+   * dividend_a_shifted[15]: 302 ticks.
+   * dividend_1[28]: 302 ticks.
+   * divisor_b_shifted[38]: 302 ticks.
+   * divisor_1[51]: 302 ticks.
+   * quotient[18]: 302 ticks.
+   * remainder[32]: 302 ticks.
+   * expon_term[7]: 302 ticks.
+   * expon_uf_gt_maxshift: 302 ticks.
+   * mantissa_1[9]: 302 ticks.
+   * mantissa_3[19]: 302 ticks.
+   * mantissa_5[29]: 302 ticks.
+   * remainder_a[95]: 302 ticks.
+   * remainder_a[1]: 302 ticks.
+   * remainder_b[27]: 302 ticks.
+   * remainder_2[45]: 302 ticks.
+   * remainder_3[7]: 302 ticks.
+   * remainder_5[25]: 302 ticks.
+> Most transitions (do not counting clock): 
+   * opa[51]: 10506 transitions.
+   * opb[21]: 10506 transitions.
+   * dividend_signal[21]: 10506 transitions.
+   * dividend_shift_2[0]: 10506 transitions.
+   * mantissa_b[28]: 10506 transitions.
+   * dividend_a[35]: 10506 transitions.
+   * dividend_denorm[46]: 10506 transitions.
+   * dividend_1[6]: 10506 transitions.
+   * divisor_b_shifted[16]: 10506 transitions.
+   * divisor_1[29]: 10506 transitions.
+   * quotient_out[50]: 10506 transitions.
+   * remainder[10]: 10506 transitions.
+   * expon_final_1[10]: 10506 transitions.
+   * expon_final_3[2]: 10506 transitions.
+   * mantissa_2[39]: 10506 transitions.
+   * mantissa_4[49]: 10506 transitions.
+   * mantissa_5[7]: 10506 transitions.
+   * remainder_a[73]: 10506 transitions.
+   * remainder_b[99]: 10506 transitions.
+   * remainder_b[5]: 10506 transitions.
+   * remainder_2[23]: 10506 transitions.
+   * remainder_4[41]: 10506 transitions.
+   * remainder_5[3]: 10506 transitions.
+> Less transitions: 
+   * opa[0]: 805 transitions.
+   * mantissa_7[9]: 805 transitions.
+   * divisor_signal[24]: 805 transitions.
+   * mantissa_a[19]: 805 transitions.
+   * a_is_norm: 805 transitions.
+   * dividend_a_shifted[36]: 805 transitions.
+   * dividend_1[49]: 805 transitions.
+   * divisor_b[7]: 805 transitions.
+   * divisor_denorm[18]: 805 transitions.
+   * quotient[39]: 805 transitions.
+   * remainder[53]: 805 transitions.
+   * remainder_out[13]: 805 transitions.
+   * expon_uf_term_2[8]: 805 transitions.
+   * mantissa_1[30]: 805 transitions.
+   * mantissa_3[40]: 805 transitions.
+   * mantissa_5[50]: 805 transitions.
+   * mantissa_6[8]: 805 transitions.
+   * remainder_a[22]: 805 transitions.
+   * remainder_b[48]: 805 transitions.
+   * remainder_1[10]: 805 transitions.
+   * remainder_3[28]: 805 transitions.
+   * remainder_5[46]: 805 transitions.
+   * remainder_6[8]: 805 transitions.
+
+In module i_fpu_round there are: 403 signals.
+> Longer idle time (do not counting reset): 
+   * mantissa_term[44]: 302 ticks.
+   * exponent_term[8]: 302 ticks.
+   * round_out[8]: 302 ticks.
+   * rounding_amount[45]: 302 ticks.
+   * sum_round[15]: 302 ticks.
+   * exponent_final_2[2]: 302 ticks.
+> Most transitions (do not counting clock): 
+   * mantissa_term[22]: 10506 transitions.
+   * exponent_final[10]: 10506 transitions.
+   * rounding_amount[23]: 10506 transitions.
+   * sum_round_2[50]: 10506 transitions.
+   * sum_final[36]: 10506 transitions.
+> Less transitions: 
+   * round_out[29]: 805 transitions.
+   * sum_round[36]: 805 transitions.
+   * exponent_round[11]: 805 transitions.
+
+In module i_fpu_exceptions there are: 842 signals.
+> Longer idle time (do not counting reset): 
+   * opb[43]: 302 ticks.
+   * in_except[8]: 302 ticks.
+   * round_to_zero: 302 ticks.
+   * NaN_output_0[4]: 302 ticks.
+   * mantissa_max[25]: 302 ticks.
+   * out_inf[57]: 302 ticks.
+   * out_0[27]: 302 ticks.
+   * out_2[61]: 302 ticks.
+> Most transitions (do not counting clock): 
+   * opa[51]: 10506 transitions.
+   * opb[21]: 10506 transitions.
+   * exponent_in[10]: 10506 transitions.
+   * out_fp[50]: 10506 transitions.
+   * exp_2047[2]: 10506 transitions.
+   * NaN_output[45]: 10506 transitions.
+   * mantissa_max[3]: 10506 transitions.
+   * out_inf[35]: 10506 transitions.
+   * out_0[5]: 10506 transitions.
+   * out_2[39]: 10506 transitions.
+> Less transitions: 
+   * opa[0]: 805 transitions.
+   * in_except[29]: 805 transitions.
+   * opb_neg_inf: 805 transitions.
+   * NaN_output_0[25]: 805 transitions.
+   * mantissa_max[46]: 805 transitions.
+   * inf_round_down[15]: 805 transitions.
+   * out_0[48]: 805 transitions.
+   * out_1[18]: 805 transitions.
